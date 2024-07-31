@@ -1,0 +1,30 @@
+$text_white: #ffffff;
+$text_inherit: inherit;
+$text_primary: #011e36;
+$text_blue: #011e36;
+$text_secondary: #4686EE;
+$bg_secondary: #4686EE;
+$bg_primary: #012440;
+$bg_blue: #04477e;
+$bg_transparent: transparent;
+$bg_lightblue: #01111f0f;
+html{
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: 400 13px/1.8 "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0 !important;
+}
+body, *{box-sizing: border-box;}
+code, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.object-cover{
+  object-fit: cover;
+}
+.overflow-hidden{overflow: hidden;}
